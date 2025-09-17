@@ -3,7 +3,6 @@ from matplotlib import rc
 import numpy as np
 import matplotlib
 import matplotlib.ticker as ticker
-from toolkit.tools.units import convert as c
 import sys
 
 from toolkit.tools.units import Elements, Constants
