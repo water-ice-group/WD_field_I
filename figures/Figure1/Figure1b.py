@@ -3,7 +3,6 @@ from matplotlib import rc
 import numpy as np
 import matplotlib
 import matplotlib.ticker as ticker
-from toolkit.tools.units import convert as c
 import sys
 
 
@@ -27,7 +26,7 @@ ticksize=18
 labelsize=20
 legendsize=15
 
-field_evA2au=c.au2eV/c.au2A
+field_evA2au=51.422061454950224
 filename='figure1b'
 
 def linearFunc(x,intercept,slope):

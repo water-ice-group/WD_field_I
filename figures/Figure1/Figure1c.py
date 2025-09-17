@@ -3,7 +3,6 @@ from matplotlib import rc
 import numpy as np
 import matplotlib
 import matplotlib.ticker as ticker
-from toolkit.tools.units import convert as c
 import sys
 
 #### plot settings
@@ -31,7 +30,8 @@ filename='figure1c'
 datafile='data1c.dat'
 data=np.loadtxt(datafile)
 field=     data[:,0]
-field_evA2au=c.au2eV/c.au2A                                                                                                                                                                             
+
+field_evA2au=51.422061454950224
 field*=field_evA2au   
 angle    =    data[:,1]
 angle_err=data[:,2]
