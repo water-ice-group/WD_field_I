@@ -1,1 +1,1 @@
-Plotting files and data to reproduce the main figures of the manuscript.
+Plotting files and data to reproduce the figures of the main text.
